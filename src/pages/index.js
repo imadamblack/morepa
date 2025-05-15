@@ -57,17 +57,17 @@ export default function Home() {
 
         <div className="relative min-h-[32rem] flex-grow w-full md:absolute top-0 inset-x-0 bottom-1/2 md:bottom-0">
           <div
-            className="w-full h-[16rem] md:h-[32rem] bottom-0 absolute bg-gradient-to-t from-brand-1 md:from-black md:via-black to-transparent md:opacity-60 z-10"/>
+            className="w-full h-[16rem] md:h-[72rem] bottom-0 absolute bg-gradient-to-t from-brand-1 md:from-black md:via-black to-transparent md:opacity-50 z-10"/>
           <Image src={i00} layout="fill" className="object-cover object-right"/>
         </div>
 
         <div className="container min-h-[36rem] w-full text-left text-white z-10 p-8">
           <h1
-            className="md:w-2/3 relative font-bold ft-10 mb-8 text-white [text-shadow:_2px_2px_0_rgb(0_0_0_/_20%)]">
+            className="md:w-2/3 relative font-bold ft-10 mb-8 text-white [text-shadow:_2px_2px_0_rgb(0_0_0_/_60%)]">
             ¿Te urge un montacargas para no detener tu operación?
           </h1>
-          <p className="ft-3">Montacargas listos para trabajar hoy</p>
-          <p className="ft-3">Desde $2,500 MXN por día</p>
+          <p className="ft-3 font-medium">Montacargas listos para trabajar hoy</p>
+          <p className="ft-3 font-medium">Desde $2,500 MXN por día</p>
           <div className="flex flex-col justify-start items-start mt-12">
             <Link href="#contact">
               <a onClick={() => setLastClick('benefits')} className="button mb-4">{cta.main}</a>
@@ -75,9 +75,6 @@ export default function Home() {
           </div>
           <p className="material-icons animate-bounce"><span className="ft-9">expand_more</span></p>
         </div>
-        {/*<div className="w-full py-6 bg-red-500 z-50">*/}
-        {/*  <p className="ft-0 text-center text-white font-bold mx-auto">{cta.description}</p>*/}
-        {/*</div>*/}
       </section>
       {/*------------------------------------------------------------------ */}
       <section className="reading-container my-16">
@@ -368,7 +365,7 @@ export default function Home() {
             <h2 className="text-brand-1">
               Renta tu montacargas hoy mismo, contáctanos
             </h2>
-            <p className="ft-2 mt-8 sm:text-left">
+            <p className="ft-2 my-8 sm:text-left">
               Sin compromisos, solicita una cotización.
             </p>
 
